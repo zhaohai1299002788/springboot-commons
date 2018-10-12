@@ -4,9 +4,9 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
-  <groupId>com.github.zhaohzi1299002788</groupId>
+  <groupId>com.github.zhaohai1299002788</groupId>
   <artifactId>springboot-commons</artifactId>
-  <version>1.0-SNAPSHOT</version>
+  <version>0.0.1</version>
 
   <parent>
     <groupId>org.sonatype.oss</groupId>
@@ -15,7 +15,7 @@
   </parent>
   <name>springboot-commons</name>
   <!-- FIXME change it to the project's website -->
-  <url>http://www.example.com</url>
+  <url>https://github.com/zhaohai1299002788/springboot-commons</url>
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -29,6 +29,16 @@
       <artifactId>junit</artifactId>
       <version>4.11</version>
       <scope>test</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.slf4j</groupId>
+      <artifactId>slf4j-api</artifactId>
+      <version>1.7.25</version>
+    </dependency>
+    <dependency>
+      <groupId>org.springframework</groupId>
+      <artifactId>spring-context</artifactId>
+      <version>5.1.0.RELEASE</version>
     </dependency>
   </dependencies>
 
@@ -71,20 +81,36 @@
     <license>
       <name>The Apache Software License, Version 2.0</name>
       <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
-      <distribution>repo</distribution>
+      <distribution>actable</distribution>
     </license>
   </licenses>
   <scm>
     <tag>master</tag>
-    <url>git@github.com:cloudnil/marathon-client.git</url>
-    <connection>scm:git:git@github.com:cloudnil/marathon-client.git</connection>
-    <developerConnection>scm:git:git@github.com:cloudnil/marathon-client.git</developerConnection>
+    <url>https://github.com/zhaohai1299002788/springboot-commons</url>
+    <connection>scm:git:git@github.com:zhaohai1299002788/springboot-commons.git</connection>
+    <developerConnection>scm:git:git@github.com:zhaohai1299002788/springboot-commons.git</developerConnection>
   </scm>
   <developers>
     <developer>
-      <name>cloudnil</name>
-      <email>cloudnil@126.com</email>
-      <organization>CloudNil</organization>
+      <name>zhaohaihzb</name>
+      <email>zhaohzihzb@126.com</email>
+      <organization>zhaohaihzb</organization>
+      <url>https://github.com/zhaohai1299002788/springboot-commons</url>
     </developer>
   </developers>
+  <distributionManagement>
+    <snapshotRepository>
+      <!-- 这个id需要在setting.xml中设置  -->
+      <id>taip</id>
+      <name>OSS Snapshots Repository</name>
+      <!-- 这里的url就是Issue中回复的snapshots 的repo地址-->
+      <url>https://oss.sonatype.org/content/repositories/snapshots</url>
+    </snapshotRepository>
+    <repository>
+      <id>taip</id>
+      <name>OSS Staging Repository</name>
+      <!-- 这里的url就是Issue中回复的staging 的repo地址-->
+      <url>https://oss.sonatype.org/service/local/staging/deploy/maven2</url>
+    </repository>
+  </distributionManagement>
 </project>
