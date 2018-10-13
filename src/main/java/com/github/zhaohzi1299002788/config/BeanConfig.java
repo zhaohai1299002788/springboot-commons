@@ -2,6 +2,7 @@ package com.github.zhaohzi1299002788.config;
 
 import com.github.zhaohzi1299002788.distributed.redis.DistributedLockTemplate;
 import com.github.zhaohzi1299002788.distributed.redis.SingleDistributedLockTemplate;
+import com.github.zhaohzi1299002788.distributed.zookeeper.DistributedLockZkp;
 import com.github.zhaohzi1299002788.snowflake.SnowflakeId;
 import org.redisson.Redisson;
 import org.redisson.api.RedissonClient;
@@ -25,6 +26,12 @@ public class BeanConfig {
     @Value("classpath:/redisson-conf.yml")
     Resource configFile;
 
+    @Value("${zkConnString}")
+    String zkConnString;
+
+    @Value("${lockName}")
+    String lockName;
+
     @Bean(destroyMethod = "shutdown")
     public RedissonClient redissonClient() throws IOException {
         Config config = Config.fromYAML(configFile.getInputStream());
@@ -34,5 +41,10 @@ public class BeanConfig {
     @Bean
     public DistributedLockTemplate distributedLockTemplate(RedissonClient redissonClient) {
         return new SingleDistributedLockTemplate(redissonClient);
+    }
+
+    @Bean
+    public DistributedLockZkp distributedLockZkp(DistributedLockZkp distributedLockZkp) {
+        return new DistributedLockZkp(zkConnString, lockName);
     }
 }
