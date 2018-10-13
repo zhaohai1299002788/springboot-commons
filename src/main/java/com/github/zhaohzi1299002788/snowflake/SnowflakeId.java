@@ -6,11 +6,6 @@ import org.slf4j.LoggerFactory;
 import java.util.HashSet;
 import java.util.Set;
 
-/**
- * @Author: 海仔
- * @Date: 2018/10/12 0012 23:10
- * @Version 1.0
- */
 
 public class SnowflakeId {
     private static final Logger log = LoggerFactory.getLogger(SnowflakeId.class);
