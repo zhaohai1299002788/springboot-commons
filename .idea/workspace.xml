@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9eb44e5d-9c4c-4ba8-bcc4-5a5a5f353f6e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/zhaohzi1299002788/entity/PojoResult.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/zhaohzi1299002788/whole/WebExceptionHandle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/zhaohzi1299002788/config/BeanConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/zhaohzi1299002788/config/BeanConfig.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -33,7 +30,7 @@
         <counts>
           <entry key="DistributedLockCallback" value="1" />
           <entry key="class" value="11" />
-          <entry key="java" value="31" />
+          <entry key="java" value="32" />
           <entry key="pom" value="3" />
           <entry key="xml" value="7" />
         </counts>
@@ -41,22 +38,22 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="11" />
-          <entry key="JAVA" value="31" />
+          <entry key="JAVA" value="32" />
           <entry key="UML" value="1" />
           <entry key="XML" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="6645" />
-          <entry key="txt" value="51" />
+          <entry key="java" value="6679" />
+          <entry key="txt" value="64" />
           <entry key="xml" value="59" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="6645" />
-          <entry key="PLAIN_TEXT" value="51" />
+          <entry key="JAVA" value="6679" />
+          <entry key="PLAIN_TEXT" value="64" />
           <entry key="XML" value="59" />
         </counts>
       </usages-collector>
@@ -69,10 +66,10 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/github/zhaohzi1299002788/whole/WebExceptionHandle.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/github/zhaohzi1299002788/config/BeanConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="15" column="11" selection-start-line="15" selection-start-column="11" selection-end-line="15" selection-end-column="11" />
+            <state relative-caret-position="352">
+              <caret line="53" column="40" selection-start-line="53" selection-start-column="40" selection-end-line="53" selection-end-column="40" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -106,10 +103,10 @@
         <option value="$PROJECT_DIR$/src/main/java/com/github/zhaohzi1299002788/App.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/github/zhaohzi1299002788/DataUtils.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/github/zhaohzi1299002788/distributed/zookeeper/DistributedLockZkp.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/github/zhaohzi1299002788/config/BeanConfig.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/github/zhaohzi1299002788/entity/PojoResult.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/github/zhaohzi1299002788/whole/WebExceptionHandle.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/github/zhaohzi1299002788/config/BeanConfig.java" />
       </list>
     </option>
   </component>
@@ -135,7 +132,17 @@
   </component>
   <component name="MavenProjectNavigator">
     <treeState>
-      <expand />
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="springboot-commons" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="springboot-commons" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+      </expand>
       <select />
     </treeState>
   </component>
@@ -262,6 +269,15 @@
               <item name="zhaohzi1299002788" type="462c0819:PsiDirectoryNode" />
               <item name="snowflake" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="springbootcommons" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springbootcommons" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="zhaohzi1299002788" type="462c0819:PsiDirectoryNode" />
+              <item name="whole" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -274,7 +290,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1539495342396" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1539495548078" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../admin" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -309,7 +325,7 @@
       <workItem from="1539343427424" duration="3422000" />
       <workItem from="1539356051920" duration="2455000" />
       <workItem from="1539397148979" duration="20472000" />
-      <workItem from="1539484307679" duration="5370000" />
+      <workItem from="1539484307679" duration="5572000" />
     </task>
     <task id="LOCAL-00001" summary="提交maven中央仓库">
       <created>1539357782740</created>
@@ -339,17 +355,24 @@
       <option name="project" value="LOCAL" />
       <updated>1539433955576</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="全局异常统一处理">
+      <created>1539495371598</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1539495371598</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38666000" />
+    <option name="totallyTimeSpent" value="38868000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26026666" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26026666" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -358,7 +381,7 @@
       <window_info id="Capture Tool" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.4674752" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.4674752" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -370,7 +393,7 @@
       <window_info anchor="bottom" id="Run with VisualVM" order="11" />
       <window_info anchor="bottom" id="JProfiler" order="12" />
       <window_info anchor="bottom" id="Database Changes" order="13" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="14" sideWeight="0.49973333" visible="true" weight="0.3296582" />
+      <window_info anchor="bottom" id="Version Control" order="14" sideWeight="0.49973333" weight="0.3296582" />
       <window_info anchor="bottom" id="Messages" order="15" weight="0.3296582" />
       <window_info anchor="bottom" id="Debug with VisualVM" order="16" />
       <window_info anchor="bottom" id="Regex Tester" order="17" />
@@ -426,7 +449,8 @@
     <MESSAGE value="基于redis实现分布式锁" />
     <MESSAGE value="过时类" />
     <MESSAGE value="集成zookeeper分布式锁" />
-    <option name="LAST_COMMIT_MESSAGE" value="集成zookeeper分布式锁" />
+    <MESSAGE value="全局异常统一处理" />
+    <option name="LAST_COMMIT_MESSAGE" value="全局异常统一处理" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/java/com/github/zhaohzi1299002788/snowflake/SnowflakeId.java">
@@ -552,16 +576,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/zhaohzi1299002788/config/BeanConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="298">
-          <caret line="47" column="60" selection-start-line="47" selection-start-column="52" selection-end-line="47" selection-end-column="60" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/github/zhaohzi1299002788/distributed/zookeeper/DistributedLockZkp.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
@@ -678,8 +692,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/github/zhaohzi1299002788/whole/WebExceptionHandle.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
+        <state relative-caret-position="-486">
           <caret line="15" column="11" selection-start-line="15" selection-start-column="11" selection-end-line="15" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/zhaohzi1299002788/config/BeanConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="53" column="40" selection-start-line="53" selection-start-column="40" selection-end-line="53" selection-end-column="40" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

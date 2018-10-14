@@ -4,6 +4,7 @@ import com.github.zhaohzi1299002788.distributed.redis.DistributedLockTemplate;
 import com.github.zhaohzi1299002788.distributed.redis.SingleDistributedLockTemplate;
 import com.github.zhaohzi1299002788.distributed.zookeeper.DistributedLockZkp;
 import com.github.zhaohzi1299002788.snowflake.SnowflakeId;
+import com.github.zhaohzi1299002788.whole.WebExceptionHandle;
 import org.redisson.Redisson;
 import org.redisson.api.RedissonClient;
 import org.redisson.config.Config;
@@ -46,5 +47,10 @@ public class BeanConfig {
     @Bean
     public DistributedLockZkp distributedLockZkp(DistributedLockZkp distributedLockZkp) {
         return new DistributedLockZkp(zkConnString, lockName);
+    }
+
+    @Bean
+    public WebExceptionHandle webExceptionHandle(WebExceptionHandle webExceptionHandle) {
+        return new WebExceptionHandle();
     }
 }
